@@ -1,0 +1,6 @@
+- name: install CLion Snap
+  community.general.snap:
+    name:
+      - clion
+    classic: true
+  become: true
