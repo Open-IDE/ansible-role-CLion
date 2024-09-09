@@ -1,3 +1,5 @@
 ---
 # defaults file for try
 ubuntu_install_source: Snap
+
+archlinux_source: AUR

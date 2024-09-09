@@ -48,4 +48,4 @@ galaxy_info:
     #       Maximum 20 tags per role.
 
 dependencies:
-- { role: 'UniInc.Snapd', when: ansible_os_family == 'Debian' }
+# - { role: 'UniInc.Snapd', when: ansible_os_family == 'Debian' }
