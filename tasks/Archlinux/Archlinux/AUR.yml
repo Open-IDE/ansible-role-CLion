@@ -14,6 +14,14 @@
   args:
     creates: /usr/bin/clion
 
+# - name: Install CLion with AUR
+#   kewlfft.aur.aur:
+#     name: clion
+#     use: makepkg
+#     state: present
+#   become: yes
+#   become_user: ansible_env.USER
+
 - name: Verify JetBrains CLion installation
   command: clion --version
   register: clion_version
